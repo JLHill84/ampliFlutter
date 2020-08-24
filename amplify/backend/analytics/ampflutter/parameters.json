@@ -1,0 +1,21 @@
+{
+    "appName": "ampflutter",
+    "roleName": "pinpointLambdaRole326eab7c",
+    "cloudformationPolicyName": "cloudformationPolicy326eab7c",
+    "cloudWatchPolicyName": "cloudWatchPolicy326eab7c",
+    "pinpointPolicyName": "pinpointPolicy326eab7c",
+    "authPolicyName": "pinpoint_amplify_326eab7c",
+    "unauthPolicyName": "pinpoint_amplify_326eab7c",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "auth": {
+        "cognito30eb826c": {
+            "service": "Cognito",
+            "providerPlugin": "awscloudformation",
+            "dependsOn": []
+        }
+    },
+    "analytics": {
+        "ampflutter": {
+            "service": "Pinpoint",
+            "providerPlugin": "awscloudformation"
+        }
+    }
+}
